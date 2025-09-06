@@ -1,5 +1,4 @@
 
-#---------------------------------------Book Code-----------------------------#
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -36,4 +35,5 @@ input_text = "The new laptop model features a 3.5 GHz octa-core processor, 16GB 
 final_result = full_chain.invoke({"text_input": input_text})
 print("\n--- Final JSON Output ---")
 print(final_result)
+
 
