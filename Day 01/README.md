@@ -1,3 +1,4 @@
+Chapter 01 ----  Prompt Chaining
 #Gemini LLM + LangChain Example
 
 This show's how  Python to extract information from text and transform it into structured JSON output
